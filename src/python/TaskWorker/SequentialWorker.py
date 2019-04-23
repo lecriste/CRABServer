@@ -9,6 +9,8 @@
     a file.
 """
 
+from __future__ import division
+
 from WMCore.Configuration import loadConfigurationFile
 from TaskWorker.MasterWorker import MasterWorker, validateConfig
 
